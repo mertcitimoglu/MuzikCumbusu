@@ -34,7 +34,7 @@ client.on('messageCreate', async message => {
         message.reply('Ses açıldı.');
     } else if (message.content === '!seskıs') {
         player.setVolume(player.state.resource.volume.volume - 0.1);
-        message.reply('Ses kısıldı.`);
+        message.reply('Ses kısıldı.');
     } else if (message.content === '!geç') {
         player.stop();
         message.reply('Müzik geçildi.');
